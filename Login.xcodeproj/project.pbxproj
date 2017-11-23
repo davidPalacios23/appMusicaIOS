@@ -7,17 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F287CC01FC75241001AFFD1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CBF1FC75241001AFFD1 /* Song.swift */; };
+		7F287CC21FC75466001AFFD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC11FC75466001AFFD1 /* Data.swift */; };
+		7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */; };
+		7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A11F99301700436D18 /* LoginViewController.swift */; };
+		7F6494A41F9931DC00436D18 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A31F9931DC00436D18 /* PasswordViewController.swift */; };
+		7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A51F99323F00436D18 /* RegisterViewController.swift */; };
+		7F68D0A21FC4C1F4004C93C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F68D0A01FC4C1F4004C93C8 /* Localizable.strings */; };
 		7F8C768E1F967F160016D69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C768D1F967F160016D69B /* AppDelegate.swift */; };
-		7F8C76901F967F160016D69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C768F1F967F160016D69B /* ViewController.swift */; };
 		7F8C76931F967F160016D69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76911F967F160016D69B /* Main.storyboard */; };
 		7F8C76951F967F160016D69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76941F967F160016D69B /* Assets.xcassets */; };
 		7F8C76981F967F160016D69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76961F967F160016D69B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F287CBF1FC75241001AFFD1 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7F287CC11FC75466001AFFD1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		7F6494A11F99301700436D18 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F6494A31F9931DC00436D18 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		7F6494A51F99323F00436D18 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7F68D09A1FC4B55E004C93C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7F68D0A11FC4C1F4004C93C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F68D0A31FC4C31C004C93C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		7F68D0A41FC4C31C004C93C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7F8C768A1F967F160016D69B /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8C768D1F967F160016D69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F8C768F1F967F160016D69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F8C76921F967F160016D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8C76941F967F160016D69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8C76971F967F160016D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +70,17 @@
 			isa = PBXGroup;
 			children = (
 				7F8C768D1F967F160016D69B /* AppDelegate.swift */,
-				7F8C768F1F967F160016D69B /* ViewController.swift */,
+				7F6494A11F99301700436D18 /* LoginViewController.swift */,
+				7F6494A31F9931DC00436D18 /* PasswordViewController.swift */,
+				7F6494A51F99323F00436D18 /* RegisterViewController.swift */,
+				7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */,
+				7F287CBF1FC75241001AFFD1 /* Song.swift */,
+				7F287CC11FC75466001AFFD1 /* Data.swift */,
 				7F8C76911F967F160016D69B /* Main.storyboard */,
 				7F8C76941F967F160016D69B /* Assets.xcassets */,
 				7F8C76961F967F160016D69B /* LaunchScreen.storyboard */,
 				7F8C76991F967F160016D69B /* Info.plist */,
+				7F68D0A01FC4C1F4004C93C8 /* Localizable.strings */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -107,6 +128,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 7F8C76811F967F160016D69B;
 			productRefGroup = 7F8C768B1F967F160016D69B /* Products */;
@@ -124,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8C76981F967F160016D69B /* LaunchScreen.storyboard in Resources */,
+				7F68D0A21FC4C1F4004C93C8 /* Localizable.strings in Resources */,
 				7F8C76951F967F160016D69B /* Assets.xcassets in Resources */,
 				7F8C76931F967F160016D69B /* Main.storyboard in Resources */,
 			);
@@ -136,18 +159,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8C76901F967F160016D69B /* ViewController.swift in Sources */,
+				7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */,
+				7F287CC21FC75466001AFFD1 /* Data.swift in Sources */,
 				7F8C768E1F967F160016D69B /* AppDelegate.swift in Sources */,
+				7F6494A41F9931DC00436D18 /* PasswordViewController.swift in Sources */,
+				7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */,
+				7F287CC01FC75241001AFFD1 /* Song.swift in Sources */,
+				7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7F68D0A01FC4C1F4004C93C8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F68D0A11FC4C1F4004C93C8 /* en */,
+				7F68D0A41FC4C31C004C93C8 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7F8C76911F967F160016D69B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7F8C76921F967F160016D69B /* Base */,
+				7F68D09A1FC4B55E004C93C8 /* en */,
+				7F68D0A31FC4C31C004C93C8 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -167,6 +206,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -217,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -299,6 +340,7 @@
 				7F8C769E1F967F160016D69B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

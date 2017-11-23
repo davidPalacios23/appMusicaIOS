@@ -1,0 +1,54 @@
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "1lB-sU-RS0"; */
+"1lB-sU-RS0.title" = "Item 2";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "2Zz-lT-keK"; */
+"2Zz-lT-keK.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "6LE-lK-Z7h"; */
+"6LE-lK-Z7h.text" = "User";
+
+/* Class = "UILabel"; text = "Register new user"; ObjectID = "8d1-6k-DGH"; */
+"8d1-6k-DGH.text" = "Register new user";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "9GY-Vb-6Jz"; */
+"9GY-Vb-6Jz.text" = "Password";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "HT0-5o-jiG"; */
+"HT0-5o-jiG.text" = "User";
+
+/* Class = "UILabel"; text = "forgot password"; ObjectID = "MQK-kn-DKK"; */
+"MQK-kn-DKK.text" = "forgot password";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "Q3l-S9-7Ku"; */
+"Q3l-S9-7Ku.title" = "Item 1";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Ymh-6C-iYw"; */
+"Ymh-6C-iYw.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "cxO-kw-Fub"; */
+"cxO-kw-Fub.text" = "Email";
+
+/* Class = "UILabel"; text = "Repeat password"; ObjectID = "dFn-Bk-iVC"; */
+"dFn-Bk-iVC.text" = "Repeat password";
+
+/* Class = "UILabel"; text = "password"; ObjectID = "duh-LF-nfV"; */
+"duh-LF-nfV.text" = "password";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "fiR-d2-XOI"; */
+"fiR-d2-XOI.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "fyO-cJ-Yce"; */
+"fyO-cJ-Yce.normalTitle" = "Send";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "oih-4c-RNo"; */
+"oih-4c-RNo.normalTitle" = "Forgot password";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "wEh-fk-HdI"; */
+"wEh-fk-HdI.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "User"; ObjectID = "waV-xn-Fmg"; */
+"waV-xn-Fmg.placeholder" = "User";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "waY-sx-Zrm"; */
+"waY-sx-Zrm.normalTitle" = "Register";
