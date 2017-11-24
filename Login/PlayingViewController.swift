@@ -20,7 +20,11 @@ class PlayingViewController: UIViewController {
       currentSong = 0
         
       newSong(songIndex: 0)
-    }
+      
+        appear()
+      
+      
+            }
 
 
     @IBAction func changeRight(_ sender: Any) {
@@ -28,6 +32,7 @@ class PlayingViewController: UIViewController {
         if currentSong < songsList.count-1 {
             currentSong += 1
             newSong(songIndex: currentSong)
+            appear()
             
         }
        
@@ -38,11 +43,25 @@ class PlayingViewController: UIViewController {
         if currentSong > 0 {
             currentSong -= 1
             newSong(songIndex: currentSong)
+            appear()
         }
         
     }
    
    
+    func appear() {
+        imageSong.alpha = 0
+            UIView.animate(withDuration: 0.5) {
+                self.imageSong.alpha = 1
+            }
+        
+            UIView.animate(withDuration: 1, animations: {
+        
+            self.nameSong.center = CGPoint(x: 100, y:100)
+        
+            })
+
+    }
   
     
     func newSong(songIndex: Int) {
