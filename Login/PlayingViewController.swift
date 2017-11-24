@@ -32,7 +32,9 @@ class PlayingViewController: UIViewController {
         if currentSong < songsList.count-1 {
             currentSong += 1
             newSong(songIndex: currentSong)
-            appear()
+            UIView.transition(with: view, duration: 1, options: .transitionFlipFromRight, animations: nil, completion: nil)
+            newSong(songIndex: currentSong)
+            //appear()
             
         }
        
@@ -42,8 +44,9 @@ class PlayingViewController: UIViewController {
         
         if currentSong > 0 {
             currentSong -= 1
+             UIView.transition(with: view, duration: 1, options: .transitionFlipFromLeft, animations: nil, completion: nil) //animacion de voltear la página
             newSong(songIndex: currentSong)
-            appear()
+            //appear()
         }
         
     }
