@@ -352,10 +352,10 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="w3i-2C-sIe">
-                                <rect key="frame" x="24" y="90" width="272" height="300.5"/>
+                                <rect key="frame" x="24" y="89" width="272" height="302.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QN9-Jx-aY1">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="300.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="302.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="&lt;">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -365,26 +365,26 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="rfy-iU-3Jj">
-                                        <rect key="frame" x="36" y="0.0" width="200" height="300.5"/>
+                                        <rect key="frame" x="36" y="0.0" width="200" height="302.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVh-fw-LbZ">
-                                                <rect key="frame" x="66.5" y="0.0" width="67" height="30"/>
+                                                <rect key="frame" x="66.5" y="0.0" width="67" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <size key="shadowOffset" width="-1" height="0.0"/>
+                                                <size key="shadowOffset" width="-1" height="-1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sP-1d-bQL">
-                                                <rect key="frame" x="79" y="55" width="42.5" height="20.5"/>
+                                                <rect key="frame" x="79" y="56" width="42.5" height="21.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <size key="shadowOffset" width="-1" height="0.0"/>
+                                                <size key="shadowOffset" width="-1" height="-1"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lambOfGod" translatesAutoresizingMaskIntoConstraints="NO" id="EYE-Ql-ldy">
-                                                <rect key="frame" x="0.0" y="100.5" width="200" height="200"/>
+                                                <rect key="frame" x="0.0" y="102.5" width="200" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="jq0-JF-WdQ"/>
                                                     <constraint firstAttribute="width" constant="200" id="oHU-HI-eV0"/>
@@ -393,7 +393,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tR3-hF-OnV">
-                                        <rect key="frame" x="242" y="0.0" width="30" height="300.5"/>
+                                        <rect key="frame" x="242" y="0.0" width="30" height="302.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="&gt;">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

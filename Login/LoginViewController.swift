@@ -17,14 +17,7 @@ class LoginViewController: UIViewController {
             }
 
     @IBAction func forgotPassword(_ sender: UIButton) {
-        mostrarError(mensaje: "mensajeLoginIncorrecto")
-    }
-
-    func mostrarError(mensaje: String){
-        let alert = UIAlertController(title: "Error", message: NSLocalizedString(mensaje, comment: ""),preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "ok", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
+        present(alertError(mensaje: "mensajeLoginIncorrecto"), animated: true, completion: nil)
     }
     
 }

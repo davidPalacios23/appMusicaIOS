@@ -2,6 +2,10 @@
 
 import Foundation
 
-let songsList: [Song] = [Song(name: "Demanufacture", artist: "Fear Factory", audio: URL(fileURLWithPath: ""),image: #imageLiteral(resourceName: "fearFactory")),
-                         Song(name: "Walk with me in hell", artist: "Lamb Of God", audio: URL(fileURLWithPath: ""),image: #imageLiteral(resourceName: "lambOfGod")),
-                         Song(name: "Cut me loose", artist: "Killswitch Engage", audio: URL(fileURLWithPath: ""),image: #imageLiteral(resourceName: "killswitch"))]
+
+let songsList: [Song] = [Song(name: "Welcame (Furyo state of mind)", artist: "Rise of the Northstar", audio: URL(fileURLWithPath: Bundle.main.path(forResource: "Welcame (Furyo State of Mind)", ofType: "mp3")!),image: #imageLiteral(resourceName: "rise")),
+                         Song(name: "Forever militant", artist: "Walls of Jericho", audio: URL(fileURLWithPath: Bundle.main.path(forResource: "Forever Militant", ofType: "mp3")!),image: #imageLiteral(resourceName: "walls")),
+                         Song(name: "Immortal", artist: "Angelus Apatrida", audio: URL(fileURLWithPath: Bundle.main.path(forResource: "Immortal", ofType: "mp3")!),image: #imageLiteral(resourceName: "angelusapatrida"))]
+
+
+

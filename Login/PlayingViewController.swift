@@ -1,6 +1,7 @@
 
 
 import UIKit
+import AVFoundation
 
 class PlayingViewController: UIViewController {
 
@@ -12,6 +13,8 @@ class PlayingViewController: UIViewController {
     
     @IBOutlet weak var background: UIImageView!
     
+    var player: AVAudioPlayer?
+    
     var currentSong: Int = 0
     
     override func viewDidLoad() {
@@ -20,19 +23,20 @@ class PlayingViewController: UIViewController {
       currentSong = 0
         
       newSong(songIndex: 0)
+        
       
         appear()
       
       
-            }
-
+    }
+    
 
     @IBAction func changeRight(_ sender: Any) {
         
         if currentSong < songsList.count-1 {
             currentSong += 1
             newSong(songIndex: currentSong)
-            UIView.transition(with: view, duration: 1, options: .transitionFlipFromRight, animations: nil, completion: nil)
+            UIView.transition(with: view, duration: 1, options: .transitionFlipFromRight, animations: nil, completion: nil) //animacion de voltear la página
             newSong(songIndex: currentSong)
             //appear()
             
@@ -65,6 +69,20 @@ class PlayingViewController: UIViewController {
             })
 
     }
+    
+    func loadAudio(url: URL){ //a esta funcion la llamo dentro de newSong.
+        
+       do {
+                player = try AVAudioPlayer(contentsOf: url)
+                player?.play()
+        } catch  {
+                present(alertError(mensaje: "mensajeCancionNoEncontrada"), animated: true, completion: nil)
+            }
+            
+            
+        }
+    
+    
   
     
     func newSong(songIndex: Int) {
@@ -72,5 +90,6 @@ class PlayingViewController: UIViewController {
         artistSong.text = songsList[songIndex].artist
         imageSong.image = songsList[songIndex].image
         background.image = songsList[songIndex].image
+        loadAudio(url: songsList[songIndex].audio) //reproduzco la canción que sale en pantalla
     }
 }

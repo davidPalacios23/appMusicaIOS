@@ -10,6 +10,11 @@
 		7F287CC01FC75241001AFFD1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CBF1FC75241001AFFD1 /* Song.swift */; };
 		7F287CC21FC75466001AFFD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC11FC75466001AFFD1 /* Data.swift */; };
 		7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */; };
+		7F4A32031FCC5F5D0033C282 /* Immortal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */; };
+		7F4A32051FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32041FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 */; };
+		7F4A32071FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32061FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 */; };
+		7F4A32091FCC5FB60033C282 /* Forever Militant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32081FCC5FB60033C282 /* Forever Militant.mp3 */; };
+		7F4A320B1FCC66210033C282 /* errorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A320A1FCC66210033C282 /* errorMessages.swift */; };
 		7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A11F99301700436D18 /* LoginViewController.swift */; };
 		7F6494A41F9931DC00436D18 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A31F9931DC00436D18 /* PasswordViewController.swift */; };
 		7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A51F99323F00436D18 /* RegisterViewController.swift */; };
@@ -24,6 +29,11 @@
 		7F287CBF1FC75241001AFFD1 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7F287CC11FC75466001AFFD1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Immortal.mp3; sourceTree = "<group>"; };
+		7F4A32041FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Welcame (Furyo State of Mind).mp3"; sourceTree = "<group>"; };
+		7F4A32061FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. Beyond Oblivion.mp3"; sourceTree = "<group>"; };
+		7F4A32081FCC5FB60033C282 /* Forever Militant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Forever Militant.mp3"; sourceTree = "<group>"; };
+		7F4A320A1FCC66210033C282 /* errorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorMessages.swift; sourceTree = "<group>"; };
 		7F6494A11F99301700436D18 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7F6494A31F9931DC00436D18 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		7F6494A51F99323F00436D18 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +60,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F4A32011FCC5F1C0033C282 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A32041FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 */,
+				7F4A32081FCC5FB60033C282 /* Forever Militant.mp3 */,
+				7F4A32061FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 */,
+				7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
 		7F8C76811F967F160016D69B = {
 			isa = PBXGroup;
 			children = (
+				7F4A320A1FCC66210033C282 /* errorMessages.swift */,
 				7F8C768C1F967F160016D69B /* Login */,
 				7F8C768B1F967F160016D69B /* Products */,
 			);
@@ -69,6 +91,7 @@
 		7F8C768C1F967F160016D69B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7F4A32011FCC5F1C0033C282 /* Songs */,
 				7F8C768D1F967F160016D69B /* AppDelegate.swift */,
 				7F6494A11F99301700436D18 /* LoginViewController.swift */,
 				7F6494A31F9931DC00436D18 /* PasswordViewController.swift */,
@@ -146,9 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8C76981F967F160016D69B /* LaunchScreen.storyboard in Resources */,
+				7F4A32091FCC5FB60033C282 /* Forever Militant.mp3 in Resources */,
 				7F68D0A21FC4C1F4004C93C8 /* Localizable.strings in Resources */,
+				7F4A32031FCC5F5D0033C282 /* Immortal.mp3 in Resources */,
 				7F8C76951F967F160016D69B /* Assets.xcassets in Resources */,
+				7F4A32051FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 in Resources */,
 				7F8C76931F967F160016D69B /* Main.storyboard in Resources */,
+				7F4A32071FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4A320B1FCC66210033C282 /* errorMessages.swift in Sources */,
 				7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */,
 				7F287CC21FC75466001AFFD1 /* Data.swift in Sources */,
 				7F8C768E1F967F160016D69B /* AppDelegate.swift in Sources */,

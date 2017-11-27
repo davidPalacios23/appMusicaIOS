@@ -1,4 +1,5 @@
 
 "mensajeLoginIncorrecto" = "usuario o contraseña incorrectos";
+"mensajeCancionNoEncontrada" = "Canción no encontrada";
 "error" = "Error";
 "ok" = "Ok";
