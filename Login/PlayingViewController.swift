@@ -73,14 +73,14 @@ class PlayingViewController: UIViewController {
     func loadAudio(url: URL){ //a esta funcion la llamo dentro de newSong.
         
        do {
-                player = try AVAudioPlayer(contentsOf: url)
-                player?.play()
-        } catch  {
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.play()
+          } catch {
                 present(alertError(mensaje: "mensajeCancionNoEncontrada"), animated: true, completion: nil)
             }
             
             
-        }
+    }
     
     
   
@@ -90,6 +90,7 @@ class PlayingViewController: UIViewController {
         artistSong.text = songsList[songIndex].artist
         imageSong.image = songsList[songIndex].image
         background.image = songsList[songIndex].image
+        
         loadAudio(url: songsList[songIndex].audio) //reproduzco la canción que sale en pantalla
     }
 }

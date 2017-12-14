@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */; };
+		7F1E52AA1FE0633100553DAF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A91FE0633100553DAF /* DataManager.swift */; };
 		7F287CC01FC75241001AFFD1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CBF1FC75241001AFFD1 /* Song.swift */; };
 		7F287CC21FC75466001AFFD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC11FC75466001AFFD1 /* Data.swift */; };
 		7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		7F1E52A91FE0633100553DAF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7F287CBF1FC75241001AFFD1 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7F287CC11FC75466001AFFD1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
@@ -96,9 +100,11 @@
 				7F6494A11F99301700436D18 /* LoginViewController.swift */,
 				7F6494A31F9931DC00436D18 /* PasswordViewController.swift */,
 				7F6494A51F99323F00436D18 /* RegisterViewController.swift */,
+				7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */,
 				7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */,
-				7F287CBF1FC75241001AFFD1 /* Song.swift */,
+				7F1E52A91FE0633100553DAF /* DataManager.swift */,
 				7F287CC11FC75466001AFFD1 /* Data.swift */,
+				7F287CBF1FC75241001AFFD1 /* Song.swift */,
 				7F8C76911F967F160016D69B /* Main.storyboard */,
 				7F8C76941F967F160016D69B /* Assets.xcassets */,
 				7F8C76961F967F160016D69B /* LaunchScreen.storyboard */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A320B1FCC66210033C282 /* errorMessages.swift in Sources */,
+				7F1E52AA1FE0633100553DAF /* DataManager.swift in Sources */,
 				7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */,
 				7F287CC21FC75466001AFFD1 /* Data.swift in Sources */,
 				7F8C768E1F967F160016D69B /* AppDelegate.swift in Sources */,
@@ -194,6 +201,7 @@
 				7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */,
 				7F287CC01FC75241001AFFD1 /* Song.swift in Sources */,
 				7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */,
+				7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
