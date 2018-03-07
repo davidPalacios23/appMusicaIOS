@@ -6,7 +6,7 @@ class EditProfileViewController: UIViewController {
 
     @IBOutlet weak var profilePicture: UIImageView!
     
-    @IBAction func save(_ sender: Any) {
+   /* @IBAction func save(_ sender: Any) {
         saveImage(image: profilePicture.image!, name: "profilePicture.jpg")
     }
  
@@ -19,7 +19,7 @@ class EditProfileViewController: UIViewController {
        
     }
 
-
+*/
     
 
 

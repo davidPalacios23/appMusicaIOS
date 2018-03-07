@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4066690EE9814ABA46EDE6 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C704408B784240FACEA32F9A /* Pods_Login.framework */; };
+		7F15FEC02050498B006F3C40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F15FEBF2050498B006F3C40 /* Info.plist */; };
+		7F15FEC2205049CC006F3C40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F15FEC1205049CC006F3C40 /* Info.plist */; };
 		7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */; };
 		7F1E52AA1FE0633100553DAF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A91FE0633100553DAF /* DataManager.swift */; };
-		7F287CC01FC75241001AFFD1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CBF1FC75241001AFFD1 /* Song.swift */; };
 		7F287CC21FC75466001AFFD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC11FC75466001AFFD1 /* Data.swift */; };
 		7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */; };
+		7F47B0BF20503ECA00BB321C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F47B0BE20503ECA00BB321C /* PlayerViewController.swift */; };
 		7F4A32031FCC5F5D0033C282 /* Immortal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */; };
 		7F4A32051FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32041FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 */; };
 		7F4A32071FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32061FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 */; };
 		7F4A32091FCC5FB60033C282 /* Forever Militant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A32081FCC5FB60033C282 /* Forever Militant.mp3 */; };
 		7F4A320B1FCC66210033C282 /* errorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A320A1FCC66210033C282 /* errorMessages.swift */; };
+		7F5095F2204F25B000F69417 /* SongJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5095F1204F25B000F69417 /* SongJSON.swift */; };
 		7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A11F99301700436D18 /* LoginViewController.swift */; };
 		7F6494A41F9931DC00436D18 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A31F9931DC00436D18 /* PasswordViewController.swift */; };
 		7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6494A51F99323F00436D18 /* RegisterViewController.swift */; };
@@ -25,19 +29,28 @@
 		7F8C76931F967F160016D69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76911F967F160016D69B /* Main.storyboard */; };
 		7F8C76951F967F160016D69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76941F967F160016D69B /* Assets.xcassets */; };
 		7F8C76981F967F160016D69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C76961F967F160016D69B /* LaunchScreen.storyboard */; };
+		7FC43E4B20236D7F00C340CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC43E4A20236D7F00C340CA /* MainViewController.swift */; };
+		7FC46042202CE2AF000DA721 /* cellCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC46041202CE2AF000DA721 /* cellCollection.swift */; };
+		7FC46044202CE37C000DA721 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC46043202CE37C000DA721 /* Cell.swift */; };
+		7FF53D4020445A8800F7478A /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF53D3F20445A8800F7478A /* RequestController.swift */; };
+		7FF53D422044679000F7478A /* JSONhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF53D412044679000F7478A /* JSONhttp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0DDE87DF0F5AB033C77579 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
+		7F15FEBF2050498B006F3C40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F15FEC1205049CC006F3C40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Login/Info.plist; sourceTree = SOURCE_ROOT; };
 		7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		7F1E52A91FE0633100553DAF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		7F287CBF1FC75241001AFFD1 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7F287CC11FC75466001AFFD1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		7F47B0BE20503ECA00BB321C /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Immortal.mp3; sourceTree = "<group>"; };
 		7F4A32041FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Welcame (Furyo State of Mind).mp3"; sourceTree = "<group>"; };
 		7F4A32061FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. Beyond Oblivion.mp3"; sourceTree = "<group>"; };
 		7F4A32081FCC5FB60033C282 /* Forever Militant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Forever Militant.mp3"; sourceTree = "<group>"; };
 		7F4A320A1FCC66210033C282 /* errorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorMessages.swift; sourceTree = "<group>"; };
+		7F5095F1204F25B000F69417 /* SongJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongJSON.swift; sourceTree = "<group>"; };
 		7F6494A11F99301700436D18 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7F6494A31F9931DC00436D18 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		7F6494A51F99323F00436D18 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +63,13 @@
 		7F8C76921F967F160016D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8C76941F967F160016D69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8C76971F967F160016D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7F8C76991F967F160016D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC43E4A20236D7F00C340CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7FC46041202CE2AF000DA721 /* cellCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellCollection.swift; sourceTree = "<group>"; };
+		7FC46043202CE37C000DA721 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		7FF53D3F20445A8800F7478A /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		7FF53D412044679000F7478A /* JSONhttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONhttp.swift; sourceTree = "<group>"; };
+		C704408B784240FACEA32F9A /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC837A657CF1B9D1EF977359 /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +77,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4066690EE9814ABA46EDE6 /* Pods_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49B5C1321120ECB029347C83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0DDE87DF0F5AB033C77579 /* Pods-Login.debug.xcconfig */,
+				EC837A657CF1B9D1EF977359 /* Pods-Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F1478F3203F5C9900F75C3F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F1E52A91FE0633100553DAF /* DataManager.swift */,
+				7FF53D3F20445A8800F7478A /* RequestController.swift */,
+				7F15FEBF2050498B006F3C40 /* Info.plist */,
+				7FF53D412044679000F7478A /* JSONhttp.swift */,
+				7F5095F1204F25B000F69417 /* SongJSON.swift */,
+				7FC46043202CE37C000DA721 /* Cell.swift */,
+				7FC46041202CE2AF000DA721 /* cellCollection.swift */,
+				7F15FEC1205049CC006F3C40 /* Info.plist */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F2E0EE7204839C2005642F2 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7F6494A51F99323F00436D18 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		7F47B0BC20503DFA00BB321C /* SongsList */ = {
+			isa = PBXGroup;
+			children = (
+				7FC43E4A20236D7F00C340CA /* MainViewController.swift */,
+			);
+			path = SongsList;
+			sourceTree = "<group>";
+		};
+		7F47B0BD20503EA000BB321C /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				7F47B0BE20503ECA00BB321C /* PlayerViewController.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
 		7F4A32011FCC5F1C0033C282 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +141,26 @@
 				7F4A32021FCC5F5D0033C282 /* Immortal.mp3 */,
 			);
 			name = Songs;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		7F8C76811F967F160016D69B = {
 			isa = PBXGroup;
 			children = (
+				7F47B0BD20503EA000BB321C /* PlayerView */,
 				7F4A320A1FCC66210033C282 /* errorMessages.swift */,
+				7F1478F3203F5C9900F75C3F /* Services */,
+				7F4A32011FCC5F1C0033C282 /* Songs */,
+				7F47B0BC20503DFA00BB321C /* SongsList */,
+				7F2E0EE7204839C2005642F2 /* Register */,
+				7F8C76911F967F160016D69B /* Main.storyboard */,
+				7F8C76941F967F160016D69B /* Assets.xcassets */,
+				7F8C76961F967F160016D69B /* LaunchScreen.storyboard */,
+				7F68D0A01FC4C1F4004C93C8 /* Localizable.strings */,
 				7F8C768C1F967F160016D69B /* Login */,
 				7F8C768B1F967F160016D69B /* Products */,
+				49B5C1321120ECB029347C83 /* Pods */,
+				B29F277C4AF6907DAF7343B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,23 +175,22 @@
 		7F8C768C1F967F160016D69B /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7F4A32011FCC5F1C0033C282 /* Songs */,
 				7F8C768D1F967F160016D69B /* AppDelegate.swift */,
 				7F6494A11F99301700436D18 /* LoginViewController.swift */,
 				7F6494A31F9931DC00436D18 /* PasswordViewController.swift */,
-				7F6494A51F99323F00436D18 /* RegisterViewController.swift */,
 				7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */,
 				7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */,
-				7F1E52A91FE0633100553DAF /* DataManager.swift */,
 				7F287CC11FC75466001AFFD1 /* Data.swift */,
-				7F287CBF1FC75241001AFFD1 /* Song.swift */,
-				7F8C76911F967F160016D69B /* Main.storyboard */,
-				7F8C76941F967F160016D69B /* Assets.xcassets */,
-				7F8C76961F967F160016D69B /* LaunchScreen.storyboard */,
-				7F8C76991F967F160016D69B /* Info.plist */,
-				7F68D0A01FC4C1F4004C93C8 /* Localizable.strings */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B29F277C4AF6907DAF7343B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C704408B784240FACEA32F9A /* Pods_Login.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8C769C1F967F160016D69B /* Build configuration list for PBXNativeTarget "Login" */;
 			buildPhases = (
+				C9ABF011AAFE20CFC1930D7B /* [CP] Check Pods Manifest.lock */,
 				7F8C76861F967F160016D69B /* Sources */,
 				7F8C76871F967F160016D69B /* Frameworks */,
 				7F8C76881F967F160016D69B /* Resources */,
+				59C23A1F4E6E249C9DCD7B43 /* [CP] Embed Pods Frameworks */,
+				35B14914FA9A1DC287D86E99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,16 +258,74 @@
 			files = (
 				7F8C76981F967F160016D69B /* LaunchScreen.storyboard in Resources */,
 				7F4A32091FCC5FB60033C282 /* Forever Militant.mp3 in Resources */,
+				7F15FEC02050498B006F3C40 /* Info.plist in Resources */,
 				7F68D0A21FC4C1F4004C93C8 /* Localizable.strings in Resources */,
 				7F4A32031FCC5F5D0033C282 /* Immortal.mp3 in Resources */,
 				7F8C76951F967F160016D69B /* Assets.xcassets in Resources */,
 				7F4A32051FCC5F7D0033C282 /* Welcame (Furyo State of Mind).mp3 in Resources */,
 				7F8C76931F967F160016D69B /* Main.storyboard in Resources */,
+				7F15FEC2205049CC006F3C40 /* Info.plist in Resources */,
 				7F4A32071FCC5F8F0033C282 /* 02. Beyond Oblivion.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B14914FA9A1DC287D86E99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C23A1F4E6E249C9DCD7B43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9ABF011AAFE20CFC1930D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F8C76861F967F160016D69B /* Sources */ = {
@@ -193,13 +333,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A320B1FCC66210033C282 /* errorMessages.swift in Sources */,
+				7F47B0BF20503ECA00BB321C /* PlayerViewController.swift in Sources */,
 				7F1E52AA1FE0633100553DAF /* DataManager.swift in Sources */,
+				7FF53D422044679000F7478A /* JSONhttp.swift in Sources */,
+				7FC43E4B20236D7F00C340CA /* MainViewController.swift in Sources */,
 				7F6494A21F99301700436D18 /* LoginViewController.swift in Sources */,
 				7F287CC21FC75466001AFFD1 /* Data.swift in Sources */,
+				7FF53D4020445A8800F7478A /* RequestController.swift in Sources */,
 				7F8C768E1F967F160016D69B /* AppDelegate.swift in Sources */,
+				7F5095F2204F25B000F69417 /* SongJSON.swift in Sources */,
 				7F6494A41F9931DC00436D18 /* PasswordViewController.swift in Sources */,
 				7F6494A61F99323F00436D18 /* RegisterViewController.swift in Sources */,
-				7F287CC01FC75241001AFFD1 /* Song.swift in Sources */,
+				7FC46044202CE37C000DA721 /* Cell.swift in Sources */,
+				7FC46042202CE2AF000DA721 /* cellCollection.swift in Sources */,
 				7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */,
 				7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */,
 			);
@@ -335,9 +481,11 @@
 		};
 		7F8C769D1F967F160016D69B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0DDE87DF0F5AB033C77579 /* Pods-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Login/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.com.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,9 +495,11 @@
 		};
 		7F8C769E1F967F160016D69B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC837A657CF1B9D1EF977359 /* Pods-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Login/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.com.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";

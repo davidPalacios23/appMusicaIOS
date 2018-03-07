@@ -1,5 +1,6 @@
 
 "mensajeLoginIncorrecto" = "usuario o contraseña incorrectos";
+"mensajeCamposVacios" = "no puede haber campos vacíos";
 "mensajeCancionNoEncontrada" = "Canción no encontrada";
 "error" = "Error";
 "ok" = "Ok";

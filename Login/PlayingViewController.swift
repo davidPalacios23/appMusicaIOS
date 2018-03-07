@@ -3,7 +3,7 @@
 import UIKit
 import AVFoundation
 
-class PlayingViewController: UIViewController {
+/*class PlayingViewController: UIViewController {
 
     @IBOutlet weak var nameSong: UILabel!
     
@@ -82,15 +82,12 @@ class PlayingViewController: UIViewController {
             
     }
     
-    
-  
-    
     func newSong(songIndex: Int) {
         nameSong.text = songsList[songIndex].name
         artistSong.text = songsList[songIndex].artist
         imageSong.image = songsList[songIndex].image
         background.image = songsList[songIndex].image
-        
         loadAudio(url: songsList[songIndex].audio) //reproduzco la canción que sale en pantalla
     }
 }
+*/
