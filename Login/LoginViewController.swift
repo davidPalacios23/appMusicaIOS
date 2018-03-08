@@ -1,14 +1,20 @@
 
 import UIKit
+import Toast_Swift
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var passTextfield: UITextField!
     @IBOutlet weak var userTextfield: UITextField!
     let dataManager = DataManager()
+    var toastStyle = ToastStyle() //Estilo del toast
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        toastStyle.backgroundColor = UIColor(red: 227.0, green: 0.86, blue: 102.0, alpha: 1.0)
+        toastStyle.messageColor = #colorLiteral(red: 0.2666666667, green: 0.2666666667, blue: 0.2666666667, alpha: 1)
+        toastStyle.messageFont = UIFont.systemFont(ofSize: 15, weight: 3)
+        ToastManager.shared.style = toastStyle
 
     }
     @IBAction func ocultarTeclado(_ sender: UITextField) {
@@ -19,7 +25,7 @@ class LoginViewController: UIViewController {
         
         if (userTextfield.text?.isEmpty)! || (passTextfield.text?.isEmpty)!
         {
-           present(alertError(mensaje:"mensajeLoginIncorrecto"), animated: true, completion: nil)
+           self.view.makeToast("Invalid user or password", duration: 3.0, position: .top)
         }
         else{
             login(parameters: ["name": userTextfield.text!,"password": passTextfield.text!])
@@ -48,8 +54,17 @@ class LoginViewController: UIViewController {
         
     }
     
-   
+    @IBAction func forgotPassButton(_ sender: UIButton) {
+        self.view.makeToast("funcionalidad en desarrollo", duration: 3.0, position: .top)
+    }
     
+    @IBAction func facebookButton(_ sender: UIButton) {
+        self.view.makeToast("funcionalidad en desarrollo", duration: 3.0, position: .top)
+    }
+    
+    @IBAction func gmailButton(_ sender: UIButton) {
+        self.view.makeToast("funcionalidad en desarrollo", duration: 3.0, position: .top)
+    }
     func goToForgotPass() {
         let vc = storyboard?.instantiateViewController(withIdentifier: "PasswordViewController") as! PasswordViewController
         vc.modalTransitionStyle = .crossDissolve

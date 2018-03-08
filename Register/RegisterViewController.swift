@@ -60,7 +60,10 @@ class RegisterViewController: UIViewController {
             }
    
     }
-
+    @IBAction func goBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     func goToLogin() {
         let vc = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
         vc.modalTransitionStyle = .crossDissolve

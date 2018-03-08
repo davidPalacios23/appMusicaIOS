@@ -70,6 +70,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     
+    @IBAction func goBack(_ sender: UIButton) {
+        songs.removeAll()
+        dismiss(animated: true, completion: nil)
+        
+    }
     
 
 }
