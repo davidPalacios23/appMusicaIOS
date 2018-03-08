@@ -40,11 +40,9 @@ class RegisterViewController: UIViewController {
 
     func register (parameters: [String: Any]){
       
-       
             //Se hace la llamada a la API y se filtran los códigos de respuesta
             dataManager.postCreateUser(params: parameters) { (json) in
                 if json.code == 200{
-                    print("registrado correctamente")
                     self.view.makeToast("Usuario registrado correctamente", duration: 3.0, position: .top)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                      self.goToLogin()
@@ -54,7 +52,6 @@ class RegisterViewController: UIViewController {
                    
                 } else if json.code == 400 || json.code == 500 {
                     self.view.makeToast(json.message, duration: 3.0, position: .top)
-                    
                 }
                 
             }

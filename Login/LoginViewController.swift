@@ -15,8 +15,10 @@ class LoginViewController: UIViewController {
         toastStyle.messageColor = #colorLiteral(red: 0.2666666667, green: 0.2666666667, blue: 0.2666666667, alpha: 1)
         toastStyle.messageFont = UIFont.systemFont(ofSize: 15, weight: 3)
         ToastManager.shared.style = toastStyle
+        checkLog()
 
     }
+   
     @IBAction func ocultarTeclado(_ sender: UITextField) {
         sender.resignFirstResponder()
     }
@@ -25,7 +27,7 @@ class LoginViewController: UIViewController {
         
         if (userTextfield.text?.isEmpty)! || (passTextfield.text?.isEmpty)!
         {
-           self.view.makeToast("Invalid user or password", duration: 3.0, position: .top)
+           self.view.makeToast("Usuario o contraseña incorrectos", duration: 3.0, position: .top)
         }
         else{
             login(parameters: ["name": userTextfield.text!,"password": passTextfield.text!])
@@ -37,9 +39,7 @@ class LoginViewController: UIViewController {
         //Se hace la llamada a la API y se filtran los códigos de respuesta
         dataManager.getLogin(params: parameters) { (json) in
             if json.code == 200 {
-                UserDefaults.standard.set(json.data["encodedToken"], forKey: "token")
-                
-                UserDefaults.standard.set(json.data["name"], forKey: "username")
+                UserDefaults.standard.set(json.data["token"], forKey: "token")
                 
                 self.goToMain()
                 
@@ -52,6 +52,23 @@ class LoginViewController: UIViewController {
 
         }
         
+    }
+    
+    func checkLog() {
+        
+        if UserDefaults.standard.value(forKey: "token") as? String != "" {
+            dataManager.getAuth { (json) in
+                if json.code == 200 {
+                    self.userTextfield.text = nil
+                    self.passTextfield.text = nil
+                    self.goToMain()
+                } else if json.code == 401 || json.code == 419{
+                    
+                } else if json.code == 400 || json.code == 500 {
+                    print(String(describing:json.message))
+                }
+            }
+        }
     }
     
     @IBAction func forgotPassButton(_ sender: UIButton) {

@@ -10,7 +10,6 @@
 		2C4066690EE9814ABA46EDE6 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C704408B784240FACEA32F9A /* Pods_Login.framework */; };
 		7F15FEC02050498B006F3C40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F15FEBF2050498B006F3C40 /* Info.plist */; };
 		7F15FEC2205049CC006F3C40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F15FEC1205049CC006F3C40 /* Info.plist */; };
-		7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */; };
 		7F1E52AA1FE0633100553DAF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E52A91FE0633100553DAF /* DataManager.swift */; };
 		7F287CC21FC75466001AFFD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC11FC75466001AFFD1 /* Data.swift */; };
 		7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */; };
@@ -40,7 +39,6 @@
 		0C0DDE87DF0F5AB033C77579 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 		7F15FEBF2050498B006F3C40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F15FEC1205049CC006F3C40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Login/Info.plist; sourceTree = SOURCE_ROOT; };
-		7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		7F1E52A91FE0633100553DAF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7F287CC11FC75466001AFFD1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +56,7 @@
 		7F68D0A11FC4C1F4004C93C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7F68D0A31FC4C31C004C93C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		7F68D0A41FC4C31C004C93C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7F8C768A1F967F160016D69B /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8C768A1F967F160016D69B /* AppMusicaDavidPalacios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusicaDavidPalacios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8C768D1F967F160016D69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8C76921F967F160016D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8C76941F967F160016D69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,7 +165,7 @@
 		7F8C768B1F967F160016D69B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F8C768A1F967F160016D69B /* Login.app */,
+				7F8C768A1F967F160016D69B /* AppMusicaDavidPalacios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,7 +176,6 @@
 				7F8C768D1F967F160016D69B /* AppDelegate.swift */,
 				7F6494A11F99301700436D18 /* LoginViewController.swift */,
 				7F6494A31F9931DC00436D18 /* PasswordViewController.swift */,
-				7F1E52A71FE05EF700553DAF /* EditProfileViewController.swift */,
 				7F287CC31FC75965001AFFD1 /* PlayingViewController.swift */,
 				7F287CC11FC75466001AFFD1 /* Data.swift */,
 			);
@@ -196,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F8C76891F967F160016D69B /* Login */ = {
+		7F8C76891F967F160016D69B /* AppMusicaDavidPalacios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F8C769C1F967F160016D69B /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = 7F8C769C1F967F160016D69B /* Build configuration list for PBXNativeTarget "AppMusicaDavidPalacios" */;
 			buildPhases = (
 				C9ABF011AAFE20CFC1930D7B /* [CP] Check Pods Manifest.lock */,
 				7F8C76861F967F160016D69B /* Sources */,
@@ -211,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = Login;
+			name = AppMusicaDavidPalacios;
 			productName = Login;
-			productReference = 7F8C768A1F967F160016D69B /* Login.app */;
+			productReference = 7F8C768A1F967F160016D69B /* AppMusicaDavidPalacios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F8C76851F967F160016D69B /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = 7F8C76851F967F160016D69B /* Build configuration list for PBXProject "AppMusicaDavidPalacios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,7 +243,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F8C76891F967F160016D69B /* Login */,
+				7F8C76891F967F160016D69B /* AppMusicaDavidPalacios */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +344,6 @@
 				7FC46044202CE37C000DA721 /* Cell.swift in Sources */,
 				7FC46042202CE2AF000DA721 /* cellCollection.swift in Sources */,
 				7F287CC41FC75965001AFFD1 /* PlayingViewController.swift in Sources */,
-				7F1E52A81FE05EF700553DAF /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F8C76851F967F160016D69B /* Build configuration list for PBXProject "Login" */ = {
+		7F8C76851F967F160016D69B /* Build configuration list for PBXProject "AppMusicaDavidPalacios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F8C769A1F967F160016D69B /* Debug */,
@@ -519,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F8C769C1F967F160016D69B /* Build configuration list for PBXNativeTarget "Login" */ = {
+		7F8C769C1F967F160016D69B /* Build configuration list for PBXNativeTarget "AppMusicaDavidPalacios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F8C769D1F967F160016D69B /* Debug */,

@@ -73,20 +73,6 @@ class DataManager: NSObject {
         })
     }
     
-    //Se hace una llamada a la API con el endpoint de actualizar usuario y se devuelve la respuesta parseada desde json,
-    //necesita recibir los parametros en formato de [String: Any]
-    func postUpdateUser(params: [String: Any], image: UIImage?, completionHandler: @escaping (_ json: JSONhttp) -> Void) {
-        let requestController = RequestController()
-        
-        let url: URL = URL(string:"\(urlBase)users/updateData.json")!
-        let headers: [String: String] = ["Content-Type": "multipart/form-data", "Authorization": UserDefaults.standard.value(forKey: "token") as! String]
-        
-        requestController.makePostRequestMultipart(url: url, params: params, headers: headers, image: image, completionHandler: {(json) in
-            
-            completionHandler(json)
-        })
-    }
-    
     func getSongs(params: [String: Any], completionHandler: @escaping (_ json: JSONhttp) -> Void){
         let requestController = RequestController()
         

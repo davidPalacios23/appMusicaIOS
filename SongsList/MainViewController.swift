@@ -71,6 +71,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     
     @IBAction func goBack(_ sender: UIButton) {
+        UserDefaults.standard.set("", forKey: "token")
         songs.removeAll()
         dismiss(animated: true, completion: nil)
         
