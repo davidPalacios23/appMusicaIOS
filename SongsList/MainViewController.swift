@@ -40,11 +40,9 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let cell : Cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as! Cell
         
-        if indexPath.row % 2 == 0 {
-            cell.backgroundColor = UIColor.darkGray
-        } else{
+     
             cell.backgroundColor = UIColor.clear
-        }
+        
         
         cell.songName.text = songs[indexPath.row].name
         
@@ -62,15 +60,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         songName = songs[indexPath.row].name
         goToMediaPlayer()
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let destiny = segue.destination as! PlayerViewController
-//        let cell = sender as! Cell
-//        destiny.url = url
-//        destiny.songName = cell.songName.text!
-//
-//
-//    }
     
     func goToMediaPlayer() {
         let vc = storyboard?.instantiateViewController(withIdentifier: "PlayerViewController") as! PlayerViewController

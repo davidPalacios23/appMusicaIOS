@@ -5,6 +5,7 @@ import WebKit
 
 class PlayerViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
+    @IBOutlet weak var songNameTitle: UITextField!
     var url: String = ""
     var songName: String = ""
     @IBOutlet weak var webContainer: UIView!
@@ -14,14 +15,10 @@ class PlayerViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(songName)
-        print(url)
-        
+        songNameTitle.text = songName
         myActivityIndicator.center = view.center
         myActivityIndicator.hidesWhenStopped = true
         myActivityIndicator.startAnimating()
-        // Create WKWebView in code, because IB cannot add a WKWebView directly
         webView = WKWebView()
         webView.translatesAutoresizingMaskIntoConstraints = false
         webContainer.addSubview(webView)
@@ -40,14 +37,14 @@ class PlayerViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
         loadURL()
     }
     
+    @IBAction func goBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
     func loadURL() {
-        let urlString = url
+        let urlString = url.replacingOccurrences(of: "watch?v=", with: "embed/")
         guard let url = NSURL(string: urlString) else {return}
         let request = NSMutableURLRequest(url:url as URL)
         webView.load(request as URLRequest)
-//        DispatchQueue.main.async {
-//            self.downloadTimer = Timer.scheduledTimer(timeInterval: 0.06, target: self, selector: #selector(PlayerViewController.update), userInfo: nil, repeats: true)
-//        }
     }
 
    
